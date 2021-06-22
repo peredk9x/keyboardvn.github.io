@@ -430,7 +430,7 @@ const data={
                 }]
                 const setobj = JSON.stringify(obj);
                  localStorage.setItem('bem',setobj);
-                location.href="/works/KeyBoard/infomation.html";
+                location.href="../html/infomation.html";
             })
         } 
     },

@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="keyboard.css" rel="stylesheet" type="text/css">
-    <link href="media.css" rel="stylesheet" type="text/css">
+    <link href="../css/keyboard.css" rel="stylesheet" type="text/css">
+    <link href="../css/media.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Document</title>
+    <title>Shop KeyBoard</title>
 </head>
 <body>
-    <div class="notifi">
-        <i class="fa fa-check-circle"></i>
-        <span>Đã thêm vào giỏ hàng</span>    
-    </div>
+        <div class="notifi">
+            <i class="fa fa-check-circle"></i>
+            <span>Đã thêm vào giỏ hàng</span>    
+        </div>
     <div class="product-shop">
         <div class="title-add">
         <h3>Giỏ Hàng</h3>
@@ -31,7 +31,10 @@
     <div class="shop">
         <i class="fa fa-shopping-cart"></i>   
     </div>
+    
+
     <header class="header-shop">
+        <div class="fixed">
         <div class="bgr-nav">
         </div>
             <nav>
@@ -43,7 +46,7 @@
                     <ul>
                         <li class="item-nav"><a href="home.html">Home</a></li>
                         <li class="item-nav"><a href="shop.html">Shop</a></li>
-                        <li class="item-nav"><a href="keycaps.html">KeyCaps</a></li>
+                        <li class="item-nav active"><a href="keycaps.html">KeyCaps</a></li>
                         <li class="item-nav"><a href="#footer">About</a></li>
                         <div class='border-bottom'></div>
                     </ul>
@@ -57,23 +60,54 @@
                     <ul>
                         <li class="item-nav"><a href="home.html">Home</a></li>
                         <li class="item-nav"><a href="shop.html">Shop</a></li>
-                        <li class="item-nav"><a href="keycaps.html">KeyCaps</a></li>
+                        <li class="item-nav on"><a href="keycaps.html">KeyCaps</a></li>
                         <li class="item-nav"><a href="#footer">About</a></li>
                         <div class='border-bottom'></div>
                     </ul>
                  </div>
-                   
+                </div>
     </header>
     
 
+
+
+    <!-- ------------------------------------------ -->
     <section>
         <div class="shop-section">
- 
+        <!-- -----------------ALL PRODUCT---------------- -->
+        <div class="title-content all">
+            <div class="title hot">
+            <div class="border">
+                <h2 >KEY CAPS</h2> </div>
+            <hr width="100%"></div>
+            <!-- chứa các bài viết bên trong -->
+            <div class="content keycaps-product">       
+                <!-- Thông tin tóm tắt sản phẩm -->
+                
+                <!-- ----------------------------------- -->
+            </div>
         </div>
+        <div class="pagination">
+            <ul>
+                <li><a hre="#">1</a></li>
+                <li><a hre="#">2</a></li>
+                <li><a hre="#">3</a></li>
+            </ul>
+        </div>    
+    </div>
 
     </section>
+    
 
 
+
+
+
+
+
+
+
+    <!-- ------------------FOOTER------------------------ -->
     <footer id="footer">
         <h2><a href="">KeyBoard.vn</h2>
         <div class="content-footer">
@@ -122,9 +156,9 @@
         </div>
         <p>©2020 Desgined by PerT. All rights reseved</p>
     </footer>
-    <!-- <script src="event.js"></script> -->
-    <script  src="info.js">
-    </script> 
-    <!-- <script src="localDataKeyCaps.js"></script> -->
-</body>
-</html>
+
+    <!-- <script  src="localDataKeyCaps.js"></script> -->
+    <script src="../js/localData.js"></script>
+    <script src="../js/event.js"></script>
+
+    <!-- <script src="localData.js"></script> -->
