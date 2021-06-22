@@ -114,7 +114,7 @@ float:right;
 header{
     background-size:cover;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;        
-    background-image:url('./bgr-music/keyboard.jpg');
+    background-image:url('../bgr-music/keyboard.jpg');
     background-repeat: no-repeat;
 }
     header .bgr-img{
